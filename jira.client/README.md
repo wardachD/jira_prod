@@ -46,6 +46,4 @@ Skopiuj kod
 npm start
 Aplikacja będzie dostępna pod adresem http://localhost:3000.
 
-## Licencja
-Ten projekt jest objęty licencją MIT. Więcej informacji znajduje się w pliku LICENSE.
 
