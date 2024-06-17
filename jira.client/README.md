@@ -46,4 +46,3 @@ Skopiuj kod
 npm start
 Aplikacja będzie dostępna pod adresem http://localhost:3000.
 
-
