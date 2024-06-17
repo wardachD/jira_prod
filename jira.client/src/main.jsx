@@ -22,10 +22,10 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         <App />
         <BrowserRouter>
             <Routes>
-                <Route path="/login" element={<LayoutLogin />}>
+                <Route path="/" element={<LayoutLogin />}>
                     <Route index element={<Login />} />
                 </Route>
-                <Route path="/" element={<LayoutHomepage />}>
+                <Route path="/home" element={<LayoutHomepage />}>
                     <Route index element={<Homepage />} />
                 </Route>
                 <Route path="/projekty" element={<Layout />}>
