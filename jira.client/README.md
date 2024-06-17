@@ -44,5 +44,5 @@ Uruchom aplikację:
 ```bash
 Skopiuj kod
 npm start
-Aplikacja będzie dostępna pod adresem http://localhost:3000.
+Aplikacja będzie dostępnaa pod adresem http://localhost:3000.
 
