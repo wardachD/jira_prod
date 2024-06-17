@@ -1,0 +1,8 @@
+Wszędzie można dojść nawigacją ale dla ułatwienia:
+
+/pulpit
+/pulpit/default
+/projekty
+/projekty/przegladaj
+/projekty/ProjectView#
+/zespoly

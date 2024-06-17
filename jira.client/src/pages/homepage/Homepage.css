@@ -1,0 +1,252 @@
+.fullpage-screen-container {
+    padding: 32px;
+    width: 100%;
+}
+
+.title-view {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ebe9e9;
+}
+
+.projects-view {
+    padding: 10px 0 28px 0;
+}
+
+.projects-title-view{
+    font-size: medium;
+}
+
+.link-projects {
+    color: #218fed;
+    padding-bottom: 10px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 250px));
+    grid-gap: 20px;
+    width: 100%;
+}
+
+.grid-item {
+    height: 168px;
+    width: 240px;
+    background: linear-gradient(to right, #ffaeae 10%, white 10%);
+    border-radius: 4px;
+    border: 0.3px solid #efeeee;
+}
+
+.grid-item-blue {
+    height: 168px;
+    width: 240px;
+    background: linear-gradient(to right, #a7d9ffff 10%, white 10%);
+    border-radius: 4px;
+    border: 0.3px solid #efeeee;
+}
+
+    .grid-item:hover {
+        box-shadow: 0px 3px 5px #ebe9e9;
+    }
+
+
+.nav-tabs {
+    height: auto !important;
+    width: auto !important;
+    font-size: 14px;
+    font-weight: 500;
+    border-bottom: 2px solid #ebe9e9 !important;
+}
+
+    .nav-tabs .nav-link.active {
+        color: #3b99e9 !important;
+        border-top: 0px !important;
+        border-left: 0px !important;
+        border-right: 0px !important;
+        border-bottom: 2px solid #5680d7 !important;
+    }
+
+.nav-link:hover {
+    border: 0 ;
+}
+
+#controlled-tab-example-tab-home:first-child {
+    padding-left: 0 !important; 
+}
+
+.project-tile-description{
+    font-size: 12px; 
+    margin: 0px;
+}
+
+.project-tile-title {
+    padding: 0px !important;
+    margin: 0px;
+}
+
+.project-header{
+    margin-top: 15px !important;
+}
+
+.project-text{
+    align-content: center;
+    margin-left: 5px;
+}
+
+.avatar{
+    height: 36px;
+}
+
+.task-avatar {
+    height: 36px;
+    padding: 0 6px 0 0;
+
+}
+
+.quick-access{
+    padding-top: 8px;
+    padding-left: 50px;
+}
+
+.quick-access-bottom-bar {
+    width: 90%;
+    margin: 12px 0 0 10% !important;
+}
+
+.quick-access-title{
+    font-size: 11px;
+    color: #383838;
+    margin-bottom: 0;
+}
+
+.quick-access-tooltip {
+    padding-top: 0;
+    width: 190px;
+    height: 24px;
+    font-size: 11px;
+    color: #383838;
+}
+
+.quick-access-tooltip:hover {
+    background-color: #d8d8d8;
+    border-radius: 4px;
+}
+
+.gray-box {
+    padding: 0 8px 0 8px; 
+    background-color: #d8d8d8;
+    border-radius: 6px;
+}
+
+.dropdown-quick-projects.show {
+    margin-top: 6px;
+    border: none;
+    font-size: 12px !important;
+    color: inherit !important;
+    box-shadow: 0 1px 8px #218fed58;
+}
+
+.quick-access-dropdown {
+    display: flex;
+    margin: 2px 0 0 12px;
+    text-align: start !important;
+    height: 24px;
+    width: auto;
+    padding: 0 2px 0 2px !important;
+    border: none !important;
+    color: inherit !important;
+    background-color: transparent !important;
+    font-size: 11px !important;
+}
+
+.taskbar-title{
+    margin: 0;
+    font-size: 13px;
+}
+
+.taskbar-description {
+    margin: 0;
+    color: #808080;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.task-card {
+    padding: 6px 0;
+    border-radius: 6px;
+}
+
+.task-meta-title{
+    margin: 0;
+    font-size: smaller;
+}
+
+.task-card:hover{
+    background-color: #eaf6ffff;
+}
+
+.task-card:active {
+    background-color: #a7d9ffff;
+    box-shadow: 0 0 5px #a7d9ffff;
+    border: 1px #218fed;
+}
+
+.tabbar-view-a {
+    color: inherit; 
+    text-decoration: inherit; 
+}
+
+.centered-text {
+
+    font-size: small;
+    text-align: center;
+    margin-top: 60px; 
+}
+
+.link {
+    color: #218fed;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.link-button {
+    text-decoration: none;
+}
+
+    .link:hover {
+        text-decoration: underline;
+    }
+
+.centered-container {
+    text-align: center;
+}
+
+.centered-image {
+    display: block;
+    margin: 0 auto;
+    max-height: 25vh;
+    min-height: 10vh;
+}
+
+.description {
+    font-weight: 700;
+    font-size: large;
+    margin-top: 20px;
+}
+
+.sub-description {
+    font-size: small;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+.button {
+    font-size: small;
+    background-color: #f0f0f0;
+    border: 0;
+    border-radius: 5px;
+    padding: 2px 12px;
+    margin: 5px;
+    font-weight: 600;
+}

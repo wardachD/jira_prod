@@ -1,0 +1,182 @@
+
+
+.people-container .hero-header{
+    height: 250px;
+    width: 100vw;
+}
+
+    .people-container .hero-header img {
+        object-fit: fill;
+        height: 250px;
+        width: 100vw;
+    }
+
+.people-container .left-side {
+    max-width: 320px;
+}
+
+.people-container .right-side {
+    max-width: 640px;
+}
+
+.people-container .people-title {
+    font-size: larger !important;
+    font-weight: 600;
+    padding-bottom: 12px;
+}
+
+.people-container .people-title-buttons {
+    padding-bottom: 16px;
+}
+
+.people-container .people-description {
+    font-size: small;
+    color: #353535;
+    padding-bottom: 16px;
+}
+
+.people-container .people-header-button {
+    border-radius: 4px;
+    font-size: small;
+    font-weight: 600;
+    height: 32px;
+    padding: 6px 6px;
+    display: flex;
+    justify-content: center;
+}
+
+    .people-container .people-header-button:hover {
+        cursor: pointer;
+        background: #a0a0a0 !important;
+    }
+.people-container .people-title-box {
+    align-content: center;
+    height: max-content;
+    box-shadow: #ccc 0.5px 2px;
+    padding: 4px 4px;
+    border-radius: 4px;
+}
+
+
+
+.people-container .icon {
+    width: 18px;
+    height: 18px;
+    background-color: #ccc;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+}
+
+.people-container .circle {
+    width: 24px;
+    height: 24px;
+    background-color: #ccc;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+}
+
+.people-container .text {
+    color: #353535;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.people-container .subtext {
+    font-weight: 600;
+    border-bottom: 1px solid #ccc;
+    font-size: small;
+    padding-bottom: 6px;
+}
+
+.people-container .border-none {
+    border: none !important;
+}
+
+.people-container .people-title-box-border {
+    padding-top: 14px;
+}
+
+.people-container .content-box-element {
+    width: 100%;
+}
+
+.people-container .content-box {
+    border-radius: 4px;
+}
+
+    .people-container .content-box:hover {
+        cursor: pointer;
+        background: #ccc;
+    }
+
+.people-container .people-content-box {
+    box-shadow: #ccc 0.5px 2px;
+    padding: 6px;
+    border-radius: 4px;
+}
+
+.people-container .button-element-title {
+    font-size: small;
+    margin: 0px !important;
+    margin-left: 12px !important;
+}
+
+.people-container .button-element-description {
+    color: #808080;
+    font-size: smaller;
+    margin-left: 12px !important;
+    margin-bottom: 4px;
+}
+
+.people-container .button-element {
+    align-items: center !important;
+}
+    .people-container .button-element .row {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0px 0px;
+    }
+
+.people-container .software-content-box {
+    align-content: center;
+    height: 320px;
+    box-shadow: #ccc 0.5px 2px;
+    padding: 24px 12px 24px 12px;
+    border-radius: 4px;
+}
+
+.people-container .connections-content-box {
+    align-content: center;
+    height: max-content;
+    box-shadow: #ccc 0.5px 2px;
+    padding: 32px 12px 32px 12px;
+    border-radius: 4px;
+}
+
+.people-container .software-content-box p {
+    font-size: small;
+}
+
+.people-container .software-title {
+    margin-top: 26px;
+}
+
+.people-container .people-feedback {
+    margin-top: 24px;
+    font-size: 14px;
+}
+
+    .people-container .people-feedback .people-header-button {
+        width: max-content;
+    }
+
+
+    
+

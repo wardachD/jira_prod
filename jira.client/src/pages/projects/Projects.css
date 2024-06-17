@@ -1,0 +1,20 @@
+.displayBlock {
+    display: flex !important;
+}
+
+.optionContainer {
+    background: transparent !important;
+}
+
+.optionListContainer {
+    background: transparent !important;
+}
+
+.option{
+    background: white;
+}
+
+.searchWrapper:hover {
+    border: 1px solid black;
+}
+

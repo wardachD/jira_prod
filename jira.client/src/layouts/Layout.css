@@ -1,0 +1,20 @@
+.layout-container {
+    display: flex;
+    width: 100%;
+    height: calc(100vh - 90px); 
+}
+
+.left-menu-wrapper {
+    flex-shrink: 0;
+}
+
+.content-container {
+    flex-grow: 1;
+    overflow-x: hidden;
+}
+
+.projectview-container {
+    padding: 16px; 
+    box-sizing: border-box;
+    overflow-y: auto;
+}

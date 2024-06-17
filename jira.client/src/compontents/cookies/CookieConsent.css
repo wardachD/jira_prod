@@ -1,0 +1,116 @@
+.cookie-consent-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+    backdrop-filter: blur(5px);
+}
+
+.cookie-consent-modal {
+    background: white;
+    padding: 20px 0 20px 0;
+    border-radius: 8px;
+    width: 820px;
+    max-width: 90%;
+    text-align: center;
+}
+
+.tab{
+    width: 33%;
+}
+
+.cookie-consent-header {
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.cookie-consent-title{
+    font-weight: 600;
+}
+
+.cookie-consent-body {
+    text-align: left;
+}
+
+.cookie-consent-title{
+    padding: 20px 0 0 20px;
+}
+.cookie-consent-desc {
+    padding: 0px 12px 0 20px;
+}
+
+.cookie-tab {
+    font-size: 16px !important;
+    font-weight: 600;
+}
+
+.active .cookie-tab{
+    color: blue;
+}
+
+.cookie-consent-toggles {
+    border-top: 1px solid #ccc;
+    padding-top: 12px;
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.active1{
+    border-bottom: 3px solid blue;
+}
+.deny{
+    width: 30%;
+}
+.allow-selection {
+    width: 30%;
+}
+.allow-all {
+    width: 30%;
+}
+
+.toggle-group {
+    text-align: center;
+}
+
+.cookie-consent-buttons {
+    justify-content: space-around;
+    margin-top: 20px;
+
+}
+
+    .cookie-consent-buttons button {
+        padding: 10px 20px;
+        border: none;
+        background: w;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+        .cookie-consent-buttons button:nth-child(1) {
+            background: white;
+            border: 2px dashed blue;
+            font-weight: 600;
+        }
+
+        .cookie-consent-buttons button:nth-child(2) {
+            background: white;
+            font-weight: 600;
+            border: 2px solid blue;
+        }
+
+        .cookie-consent-buttons button:nth-child(3) {
+            background: blue;
+            color: white;
+            font-weight: 600;
+            border: 2px solid blue;
+        }

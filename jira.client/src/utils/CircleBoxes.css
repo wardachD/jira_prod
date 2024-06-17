@@ -1,0 +1,40 @@
+.circle-container {
+    display: flex;
+    width: 120px !important;
+    margin: 3px 12px !important;
+}
+
+.circle {
+    color: black !important;
+    background-color: white;
+    width:32px;
+    height: 32px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 32px;
+    color: white;
+}
+
+#circle1 {
+    margin-right: -12px;
+    background-color: palevioletred;
+}
+
+#circle2 {
+    background-color: cornflowerblue;
+    line-height: normal;
+    color: white !important;
+    font-size: 1.3rem;
+}
+
+#circle3 {
+    margin-left: 12px;
+    line-height: normal;
+    color: black;
+    background-color: lightgray;
+    font-size: 1.3rem;
+}
+
+.circle:hover {
+    z-index: 1;
+}

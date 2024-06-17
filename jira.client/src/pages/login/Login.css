@@ -1,0 +1,120 @@
+.login-body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('https://id-frontend.prod-east.frontend.public.atl-paas.net/assets/wac.92a80da2.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.login-container {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.login-different-account{
+    font-size: 13px;
+    font-weight: 600;
+    color: grey;
+}
+
+.login-box {
+    max-width: 350px;
+    margin: auto;
+    text-align: center;
+}
+
+.login-title {
+    padding-top: 25px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.bottom-logo{
+    height: 32px;
+}
+
+.login-footer{
+    padding-top: 12px;
+    border-top: solid 1px lightgrey;
+    font-size: 11px;
+    color: rgb(128, 128, 128);
+}
+
+.form-group {
+    position: relative;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+    .form-group input {
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+
+    .form-group label {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        color: #aaa;
+        background: white;
+        padding: 0 5px;
+        transition: 0.2s;
+        pointer-events: none;
+    }
+
+    .form-group input:focus + label,
+    .form-group input:not(:placeholder-shown) + label {
+        top: -10px;
+        left: 5px;
+        font-size: 12px;
+        color: #333;
+    }
+
+    .form-group input:placeholder-shown + label {
+        display: block;
+    }
+
+.login-button {
+    width: 100%;
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+    .login-button:hover {
+        background-color: #0056b3;
+    }
+
+.social-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-bottom: 15px;
+}
+
+.login-link{
+    font-size: 14px;
+    text-decoration: unset;
+}
+
+.social-button{
+    background: white;
+    border: 1px solid lightgrey;
+    border-radius: 4px;
+    height: 38px;
+}
